@@ -1,0 +1,171 @@
+.mycust-btn1 {
+  background-color: rgb(247, 90, 51);
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 8px 16px #fa5e37;
+}
+#intro-bg {
+  position: relative;
+  overflow: hidden;
+}
+#bg-img1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 70px;
+  top: -100px;
+}
+#bg-img2 {
+  position: absolute;
+  width: 65%;
+  height: 65%;
+  right: 170px;
+  top: 180px;
+}
+#section-1 {
+  margin-top: 220px;
+  padding-left: 120px;
+}
+.mycust-btn2 {
+  background-color: rgb(247, 90, 51);
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.mycust-btn3 {
+  background-color: rgb(252, 252, 252);
+  border-radius: 20px;
+}
+.mybtn {
+  color: rgb(247, 90, 51);
+}
+.mybt {
+  text-align: end;
+}
+.myj {
+  background-color: rgb(247, 90, 51);
+  margin-bottom: 0px;
+}
+.myslider {
+  width: 700px;
+}
+#introfooter {
+  height: 100px;
+}
+#bg-img4 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -110px;
+  left: 0px;
+  opacity: 0.2;
+}
+#bg-img5 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: -340px;
+  right: -330px;
+  opacity: 0.2;
+}
+.myfot {
+  background: hsl(233, 12%, 13%);
+}
+.but {
+  border: none;
+  background: none;
+  border-radius: 2rem;
+  padding: 15px 10px;
+  background: white;
+  margin: auto;
+  width: 70%;
+  outline: none;
+}
+.input {
+  border: none;
+  background: none;
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(119, 119, 119);
+  padding: 15px 25px;
+  border-radius: 2rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.testimonials {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.testimonials-header {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.testimonials-header h1 {
+  font-size: 2rem;
+}
+
+.testimonial-items-wrap {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+}
+
+.testimonial-item {
+  position: relative;
+  margin: 50px 0;
+  background: hsl(0, 0%, 98%);
+  padding: 2rem 1.5rem;
+  display: none;
+}
+
+.testimonial-img img {
+  width: 80px;
+  margin-top: -60px;
+}
+
+.display-testimonial {
+  display: block;
+}
+
+.view-testimonial {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  margin: auto;
+  width: 60px;
+  justify-content: space-between;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.circle-one:hover,
+.circle-two:hover,
+.circle-three:hover,
+.circle-four:hover {
+  background: hsl(12, 88%, 59%);
+}
+
+.circle-one,
+.circle-two,
+.circle-three,
+.circle-four {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid hsl(12, 88%, 59%);
+  cursor: pointer;
+}
+
+.testimonials button {
+  border: none;
+  background: none;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 2rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
