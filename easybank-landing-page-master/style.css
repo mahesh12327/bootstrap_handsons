@@ -1,0 +1,134 @@
+.myrounded {
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 580px) {
+  #button1 {
+    display: none;
+  }
+  .nav-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-link:hover {
+    margin-bottom: -3px;
+  }
+}
+
+.nav-item:hover {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%))
+    left bottom rgb(248, 249, 250) no-repeat;
+  background-size: 100% 4px;
+}
+
+.nav-link:hover {
+  margin-bottom: -2.5px;
+}
+
+.mycust-btn1:hover {
+  margin-bottom: 1px;
+}
+
+.mycust-btn2 {
+  margin-left: 53px;
+}
+.mycust-btn2:hover {
+  margin-bottom: 0.5px;
+}
+
+.mydisplay {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.mycust-posi {
+  margin-top: 190px;
+  padding-left: 120px;
+}
+
+#intro {
+  position: relative;
+  max-height: 600px;
+}
+.bg-img1 {
+  position: relative;
+  max-width: 1000px;
+  height: 800px;
+  left: 45px;
+  top: -140px;
+}
+
+.bg-img2 {
+  position: absolute;
+  max-width: 600px;
+  height: 800px;
+  top: -70px;
+  left: 170px;
+}
+
+@media screen and (max-width: 580px) {
+  #intro {
+    position: relative;
+    max-height: 350px;
+  }
+  .bg-img1 {
+    position: relative;
+    width: 550px;
+    height: 650px;
+    left: -80px;
+  }
+  .bg-img2 {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: -100px;
+    left: 0px;
+  }
+  .mycust-posi {
+    padding-left: 60px;
+  }
+  #custbtn {
+    margin-left: 100px;
+  }
+  .whyeb {
+    text-align: center;
+  }
+  .myfooter {
+    text-align: center;
+  }
+  .mycopyrights {
+    padding-left: 20px !important;
+  }
+}
+
+.mytitle-hover:hover {
+  color: rgb(77, 224, 224) !important;
+}
+
+.myfooter {
+  padding: 50px 100px;
+  background-color: hsl(233, 26%, 24%);
+  margin-top: 100px;
+}
+
+.myfooter-txtcolor {
+  color: rgb(187, 186, 186);
+}
+
+.myfooter-txtcolor:hover {
+  text-decoration: none;
+  color: rgb(0, 255, 136);
+}
+
+.mycopyrights {
+  padding-left: 183px;
+}
